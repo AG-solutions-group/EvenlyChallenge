@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ag/AndroidStudioProjects/EvenlyChallenge/app/src/main/res/layout/activity_main.xml" value="0.26671732522796354" />
+        <entry key="..\:/Users/ag/AndroidStudioProjects/EvenlyChallenge/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/ag/AndroidStudioProjects/EvenlyChallenge/app/src/main/res/layout/fragment_places_details.xml" value="0.2859375" />
+        <entry key="..\:/Users/ag/AndroidStudioProjects/EvenlyChallenge/app/src/main/res/layout/fragment_places_overview.xml" value="0.2859375" />
+        <entry key="..\:/Users/ag/AndroidStudioProjects/EvenlyChallenge/app/src/main/res/layout/places_card.xml" value="0.35190217391304346" />
+        <entry key="..\:/Users/ag/AndroidStudioProjects/EvenlyChallenge/app/src/main/res/layout/places_grid.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
