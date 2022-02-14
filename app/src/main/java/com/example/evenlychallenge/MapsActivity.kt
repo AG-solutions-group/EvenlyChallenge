@@ -85,8 +85,9 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     fun changeMarker(it: Marker) {
         if (it.title != "Evenly HQ") {
             // change marker icon of last icon && clicked icon
-            if (lastClickedVenueMarker != null) lastClickedVenueMarker!!.setIcon(BitmapDescriptorFactory.fromBitmap(makeIcon(Color.RED, markerList.indexOf(lastClickedVenueMarker) + 1)))
-            it.setIcon(BitmapDescriptorFactory.fromBitmap(makeIcon(Color.YELLOW, markerList.indexOf(it) + 1)))
+            if (lastClickedVenueMarker != null) lastClickedVenueMarker!!.setIcon(BitmapDescriptorFactory.fromBitmap(makeIcon(
+                Color.parseColor("#FDC26C"), markerList.indexOf(lastClickedVenueMarker) + 1)))
+            it.setIcon(BitmapDescriptorFactory.fromBitmap(makeIcon(Color.parseColor("#FFFF6F00"), markerList.indexOf(it) + 1)))
             // after changing icon remember current marker for next click
             lastClickedVenueMarker = it
 

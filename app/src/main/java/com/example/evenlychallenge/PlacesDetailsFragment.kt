@@ -75,7 +75,7 @@ class PlacesDetailsFragment : Fragment(){
                         // create a picture from URL via Picasso Addon
                         Picasso.get()
                             .load(place.bestPhoto.prefix + "88" + place.bestPhoto.suffix)
-                            .resize(80, 80)
+                            .resize(100, 100)
                             .centerCrop()
                             .into(placeLogoDetailsIV)
                     }
